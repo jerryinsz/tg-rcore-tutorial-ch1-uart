@@ -1,0 +1,11 @@
+[package]
+name = "tg-rcore-tutorial-ch1-uart2"
+description = "Chapter 1 UART2: A minimal bare-metal application using a fully-initialized NS16550A UART driver in S-mode (-bios none)."
+version = "0.1.0-preview.2"
+edition = "2024"
+license = "GPL-3.0"
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
